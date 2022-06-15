@@ -133,6 +133,8 @@ body {
 .container-stickers .caja-stickers .sticker3 p {
   padding: 1vh;
   height: 5vh;
+  margin-top: 3%;
+  margin-bottom: -2%;
 }
 
 .container-stickers .caja-stickers .sticker3 .planet {
@@ -171,7 +173,7 @@ body {
 
 .container-stickers .mensaje .verificar {
   text-align: center;
-  background-color: black;
+  background-color: #242424;
 }
 
 .container-stickers .mensaje .verificar-btn {

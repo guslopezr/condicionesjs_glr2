@@ -112,6 +112,8 @@
                                         p {
                                             padding: 1vh;
                                             height: 5vh;
+                                            margin-top: 3%;
+                                            margin-bottom: -2%;
                                         }
                                         .planet {
                                             width: 30vh;
@@ -136,7 +138,7 @@
                                     align-items: center;
                                     .verificar {
                                         text-align: center;
-                                        background-color: $blackbackdrop;
+                                        background-color: $boxcolor;
                                     }
                                     .verificar-btn {
                                         width: 50%;
