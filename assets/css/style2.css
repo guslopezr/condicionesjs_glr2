@@ -155,7 +155,7 @@ body {
 .container-stickers .mensaje {
   background-color: #242424;
   width: 104vh;
-  height: 15vh;
+  height: 20vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -178,6 +178,7 @@ body {
 
 .container-stickers .mensaje .verificar-btn {
   width: 50%;
+  padding: 1vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
