@@ -1,175 +1,178 @@
-                            * {
-                                margin: 0%;
-                                border: 0%;
-                            }
-                            
-                            @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
-                            $blackbackdrop:black;
-                            $fontcolor:rgb(204,
-                            204,
-                            204);
-                            $silvercolor: rgb(115,
-                            132,
-                            159);
-                            $buttoncolor:rgb(59,
-                            59,
-                            59);
-                            $buttoncolorhover:rgb(95,
-                            95,
-                            95);
-                            $boxcolor:rgb(36,
-                            36,
-                            36);
-                            $mainfont: 'Audiowide',
-                            cursive;
-                            body {
-                                font-family: $mainfont;
-                                background-color: $blackbackdrop;
-                                justify-content: space-around;
-                                padding: 3vh;
-                                padding-top: 2vh;
-                            }
-                            
-                            .container-stickers {
-                                background-image: url("../imgs/stars.jpg");
-                                color: $fontcolor;
-                                display: flex;
-                                flex-direction: column;
-                                align-items: center;
-                                justify-content: space-around;
-                                margin: 1%;
-                                .head {
-                                    height: 4vh;
-                                    padding: 2vh;
-                                    width: 100vh;
-                                    text-transform: capitalize;
-                                    background-color: $boxcolor;
-                                    justify-content: space-around;
-                                    text-align: center;
-                                    font-size: 120%;
+                                * {
+                                    margin: 0%;
+                                    border: 0%;
                                 }
-                                .caja-stickers {
-                                    height: 65vh;
-                                    width: 104vh;
-                                    display: flex;
-                                    flex-direction: row;
-                                    align-items: center;
+                                
+                                @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+                                $blackbackdrop:black;
+                                $fontcolor:rgb(204,
+                                204,
+                                204);
+                                $silvercolor: rgb(115,
+                                132,
+                                159);
+                                $buttoncolor:rgb(59,
+                                59,
+                                59);
+                                $buttoncolorhover:rgb(95,
+                                95,
+                                95);
+                                $boxcolor:rgb(36,
+                                36,
+                                36);
+                                $mainfont: 'Audiowide',
+                                cursive;
+                                body {
+                                    font-family: $mainfont;
+                                    background-color: $blackbackdrop;
                                     justify-content: space-around;
-                                    background-color: $boxcolor;
-                                    .sticker1 {
-                                        background-color: $blackbackdrop;
-                                        border-color: 5px $buttoncolor;
-                                        border-style: solid;
-                                        width: 39vh;
-                                        height: 55vh;
-                                        text-align: center;
-                                        p {
-                                            padding: 1vh;
-                                            height: 5vh;
-                                            margin-top: 10px;
-                                        }
-                                        .planet {
-                                            width: 30vh;
-                                            height: 30vh;
-                                        }
-                                        .planetname {
-                                            height: 4vh;
-                                        }
-                                        .seleccion {
-                                            justify-content: flex-end;
-                                        }
-                                    }
-                                    .sticker2 {
-                                        background-color: $blackbackdrop;
-                                        border-color: 5px $buttoncolor;
-                                        border-style: solid;
-                                        width: 39vh;
-                                        height: 55vh;
-                                        text-align: center;
-                                        p {
-                                            padding: 1vh;
-                                            height: 5vh;
-                                            margin-top: 10px;
-                                        }
-                                        .planet {
-                                            width: 30vh;
-                                            height: 30vh;
-                                        }
-                                        .planetname {
-                                            height: 4vh;
-                                        }
-                                        .seleccion {
-                                            justify-content: flex-end;
-                                        }
-                                    }
-                                    .sticker3 {
-                                        background-color: $blackbackdrop;
-                                        border-color: 5px $buttoncolor;
-                                        border-style: solid;
-                                        width: 39vh;
-                                        height: 55vh;
-                                        text-align: center;
-                                        p {
-                                            padding: 1vh;
-                                            height: 5vh;
-                                            margin-top: 3%;
-                                            margin-bottom: -2%;
-                                        }
-                                        .planet {
-                                            width: 30vh;
-                                            height: 30vh;
-                                        }
-                                        .planetname {
-                                            height: 4vh;
-                                        }
-                                        .seleccion {
-                                            justify-content: flex-end;
-                                        }
-                                    }
+                                    padding: 3vh;
+                                    padding-top: 2vh;
                                 }
-                                .mensaje {
-                                    background-color: $boxcolor;
-                                    width: 104vh;
-                                    height: 20vh;
+                                
+                                .container-stickers {
+                                    background-image: url("../imgs/stars.jpg");
+                                    color: $fontcolor;
                                     display: flex;
                                     flex-direction: column;
-                                    text-align: center;
-                                    justify-content: space-around;
                                     align-items: center;
-                                    .verificar {
-                                        text-align: center;
+                                    justify-content: space-around;
+                                    margin: 1%;
+                                    .head {
+                                        height: 4vh;
+                                        padding: 2vh;
+                                        width: 100vh;
+                                        text-transform: capitalize;
                                         background-color: $boxcolor;
+                                        justify-content: space-around;
+                                        text-align: center;
+                                        font-size: 120%;
                                     }
-                                    .verificar-btn {
-                                        width: 50%;
-                                        padding: 1vh;
+                                    .caja-stickers {
+                                        height: 65vh;
+                                        width: 104vh;
+                                        display: flex;
+                                        flex-direction: row;
                                         align-items: center;
-                                        justify-content: center;
-                                        background-color: $buttoncolor;
-                                        color: $fontcolor;
-                                        font-family: $mainfont;
-                                        &:hover {
-                                            background-color: $buttoncolorhover;
+                                        justify-content: space-around;
+                                        background-color: $boxcolor;
+                                        .sticker1 {
+                                            background-color: $blackbackdrop;
+                                            grid-area: s1;
+                                            border-color: 5px $buttoncolor;
+                                            border-style: solid;
+                                            width: 39vh;
+                                            height: 55vh;
+                                            text-align: center;
+                                            p {
+                                                padding: 1vh;
+                                                height: 5vh;
+                                                margin-top: 10px;
+                                            }
+                                            .planet {
+                                                width: 30vh;
+                                                height: 30vh;
+                                            }
+                                            .planetname {
+                                                height: 4vh;
+                                            }
+                                            .seleccion {
+                                                justify-content: flex-end;
+                                            }
+                                        }
+                                        .sticker2 {
+                                            background-color: $blackbackdrop;
+                                            border-color: 5px $buttoncolor;
+                                            border-style: solid;
+                                            width: 39vh;
+                                            height: 55vh;
+                                            text-align: center;
+                                            p {
+                                                padding: 1vh;
+                                                height: 5vh;
+                                                margin-top: 10px;
+                                            }
+                                            .planet {
+                                                width: 30vh;
+                                                height: 30vh;
+                                            }
+                                            .planetname {
+                                                height: 4vh;
+                                            }
+                                            .seleccion {
+                                                justify-content: flex-end;
+                                            }
+                                        }
+                                        .sticker3 {
+                                            background-color: $blackbackdrop;
+                                            border-color: 5px $buttoncolor;
+                                            border-style: solid;
+                                            width: 39vh;
+                                            height: 55vh;
+                                            text-align: center;
+                                            p {
+                                                padding: 1vh;
+                                                height: 5vh;
+                                                margin-top: 3%;
+                                                margin-bottom: -2%;
+                                            }
+                                            .planet {
+                                                width: 30vh;
+                                                height: 30vh;
+                                            }
+                                            .planetname {
+                                                height: 4vh;
+                                            }
+                                            .seleccion {
+                                                justify-content: flex-end;
+                                            }
                                         }
                                     }
-                                    .backbutton {
-                                        width: 30%;
+                                    .mensaje {
+                                        background-color: $boxcolor;
+                                        width: 104vh;
+                                        height: 20vh;
+                                        display: flex;
+                                        flex-direction: column;
+                                        text-align: center;
+                                        justify-content: space-around;
                                         align-items: center;
-                                        justify-content: center;
-                                        background-color: $buttoncolor;
-                                        color: $fontcolor;
-                                        font-family: $mainfont;
-                                        &:hover {
-                                            background-color: $buttoncolorhover;
+                                        .verificar {
+                                            text-align: center;
+                                            background-color: $boxcolor;
+                                        }
+                                        .verificar-btn {
+                                            width: 50%;
+                                            padding: 1vh;
+                                            align-items: center;
+                                            justify-content: center;
+                                            background-color: $buttoncolor;
+                                            color: $fontcolor;
+                                            font-family: $mainfont;
+                                            &:hover {
+                                                background-color: $buttoncolorhover;
+                                            }
+                                        }
+                                        .backbutton {
+                                            width: 30%;
+                                            align-items: center;
+                                            justify-content: center;
+                                            background-color: $buttoncolor;
+                                            color: $fontcolor;
+                                            font-family: $mainfont;
+                                            &:hover {
+                                                background-color: $buttoncolorhover;
+                                            }
                                         }
                                     }
                                 }
-                            }
-                            /*Bloqueo orientación pantalla*/
-                            
-                            @media only screen and (orientation:portrait) {
-                                body {
-                                    height: 100%;
-                                    transform: rotate(90deg);
+                                /*Responsividad*/
+                                
+                                @media only screen and (orientation:portrait) {
+                                    body {
+                                        margin: 5%;
+                                        height: 160%;
+                                        width: 160%;
+                                        transform: rotate(90deg);
+                                    }
                                 }
-                            }
