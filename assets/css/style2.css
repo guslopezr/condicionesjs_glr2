@@ -214,13 +214,4 @@ body {
 }
 
 /*Responsividad*/
-@media only screen and (orientation: portrait) {
-  body {
-    margin: 5%;
-    height: 900px;
-    width: 600px;
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
-  }
-}
 /*# sourceMappingURL=style2.css.map */
