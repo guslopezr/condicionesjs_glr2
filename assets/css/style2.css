@@ -29,6 +29,7 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin: 1%;
+  overflow: auto;
 }
 
 .container-stickers .head {
