@@ -28,9 +28,12 @@
                                     justify-content: space-around;
                                     padding: 3vh;
                                     padding-top: 2vh;
+                                    overflow-y: auto;
+                                    overflow-x: auto;
                                 }
                                 
                                 .container-stickers {
+                                    height: 90%;
                                     background-image: url("../imgs/stars.jpg");
                                     color: $fontcolor;
                                     display: flex;
@@ -38,11 +41,11 @@
                                     align-items: center;
                                     justify-content: space-around;
                                     margin: 1%;
-                                    overflow: auto;
                                     .head {
-                                        height: 4vh;
-                                        padding: 2vh;
-                                        width: 100vh;
+                                        padding: 2%;
+                                        width: 55%;
+                                        height: 15%;
+                                        margin: 2%;
                                         text-transform: capitalize;
                                         background-color: $boxcolor;
                                         justify-content: space-around;
@@ -50,20 +53,20 @@
                                         font-size: 120%;
                                     }
                                     .caja-stickers {
-                                        height: 65vh;
-                                        width: 104vh;
+                                        height: 100%;
+                                        width: 59%;
                                         display: flex;
                                         flex-direction: row;
                                         align-items: center;
                                         justify-content: space-around;
                                         background-color: $boxcolor;
+                                        overflow-y: auto;
                                         .sticker1 {
                                             background-color: $blackbackdrop;
-                                            grid-area: s1;
                                             border-color: 5px $buttoncolor;
                                             border-style: solid;
-                                            width: 39vh;
-                                            height: 55vh;
+                                            width: 35%;
+                                            height: 80%;
                                             text-align: center;
                                             p {
                                                 padding: 1vh;
@@ -71,22 +74,23 @@
                                                 margin-top: 10px;
                                             }
                                             .planet {
-                                                width: 30vh;
-                                                height: 30vh;
+                                                width: 90%;
+                                                height: 50%;
                                             }
                                             .planetname {
                                                 height: 4vh;
                                             }
                                             .seleccion {
                                                 justify-content: flex-end;
+                                                margin: 3%;
                                             }
                                         }
                                         .sticker2 {
                                             background-color: $blackbackdrop;
                                             border-color: 5px $buttoncolor;
                                             border-style: solid;
-                                            width: 39vh;
-                                            height: 55vh;
+                                            width: 35%;
+                                            height: 80%;
                                             text-align: center;
                                             p {
                                                 padding: 1vh;
@@ -94,45 +98,47 @@
                                                 margin-top: 10px;
                                             }
                                             .planet {
-                                                width: 30vh;
-                                                height: 30vh;
+                                                width: 90%;
+                                                height: 50%;
                                             }
                                             .planetname {
                                                 height: 4vh;
                                             }
                                             .seleccion {
                                                 justify-content: flex-end;
+                                                margin: 3%;
                                             }
                                         }
                                         .sticker3 {
                                             background-color: $blackbackdrop;
                                             border-color: 5px $buttoncolor;
                                             border-style: solid;
-                                            width: 39vh;
-                                            height: 55vh;
+                                            width: 35%;
+                                            height: 90%;
                                             text-align: center;
                                             p {
                                                 padding: 1vh;
                                                 height: 5vh;
-                                                margin-top: 3%;
-                                                margin-bottom: -2%;
+                                                margin-top: 10px;
                                             }
                                             .planet {
-                                                width: 30vh;
-                                                height: 30vh;
+                                                width: 84%;
+                                                height: 41%;
                                             }
                                             .planetname {
                                                 height: 4vh;
                                             }
                                             .seleccion {
                                                 justify-content: flex-end;
+                                                margin: 3%;
                                             }
                                         }
                                     }
                                     .mensaje {
                                         background-color: $boxcolor;
-                                        width: 104vh;
-                                        height: 20vh;
+                                        width: 59%;
+                                        height: 25%;
+                                        margin: 2%;
                                         display: flex;
                                         flex-direction: column;
                                         text-align: center;
@@ -141,6 +147,7 @@
                                         .verificar {
                                             text-align: center;
                                             background-color: $boxcolor;
+                                            margin: 3%;
                                         }
                                         .verificar-btn {
                                             width: 50%;
@@ -150,6 +157,7 @@
                                             background-color: $buttoncolor;
                                             color: $fontcolor;
                                             font-family: $mainfont;
+                                            margin: 1%;
                                             &:hover {
                                                 background-color: $buttoncolorhover;
                                             }
@@ -161,10 +169,36 @@
                                             background-color: $buttoncolor;
                                             color: $fontcolor;
                                             font-family: $mainfont;
+                                            margin: 1%;
                                             &:hover {
                                                 background-color: $buttoncolorhover;
                                             }
                                         }
                                     }
                                 }
-                                /*Responsividad*/
+                                
+                                @media (max-width:700px) {
+                                    body {
+                                        overflow: scroll;
+                                    }
+                                    .container-stickers {
+                                        overflow: visible;
+                                        width: 90%;
+                                    }
+                                    .caja-stickers {
+                                        display: flex;
+                                        flex-direction: column;
+                                        overflow: scroll;
+                                        width: 90%;
+                                        align-items: stretch;
+                                        .sticker1 {
+                                            width: 90%;
+                                        }
+                                        .sticker2 {
+                                            width: 90%;
+                                        }
+                                        .sticker3 {
+                                            width: 90%;
+                                        }
+                                    }
+                                }
